@@ -16,9 +16,8 @@
 - VPL hỗ trợ phần lớn ngôn ngữ lập trình thông dụng: C/C++, C#, Java, Python,... 
 
 ## Cài đặt VPL 
-### Install Moodle VPL plugin (Moodle admin)
-### <a href="docs/install_vpl_jail_server.md">Install VPL Jail Server on Linux</a>
-
+### Moodle VPL plugin (Moodle admin)
+### <a href="docs/install_vpl_jail_server.md">VPL Jail Server</a>
 
 
 ## Sử dụng VPL
