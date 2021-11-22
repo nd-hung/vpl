@@ -1,6 +1,6 @@
 ## Tự động hóa đánh giá bài tập lập trình trên Moodle với module VPL (Virtual Programming Lab) 
 
-### [Nguyễn Đình Hưng](nd-hung.github.io)
+### [Nguyễn Đình Hưng](https://nd-hung.github.io)
 #### Khoa CNTT Trường đại học Nha Trang
 
 ## Giới thiệu
