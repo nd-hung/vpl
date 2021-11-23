@@ -56,31 +56,30 @@ Về nội dung, có thể tạo:
 <img src="figs/vpl_description.PNG">
 
 - Giới hạn nộp bài (submission restrictions)
-<img src="figs/vpl_submission_restrictions.PNG">
-
     - Maximum number of files: hạn chế số lượng file tối đa SV được nộp.<br>
     - Type of work: chọn dạng bài làm cá nhân (individual) hoặc nhóm (group).<br>
     - Disable external file upload, paste and drop external content: hạn chế upload hoặc copy/paste từ bên ngoài (vẫn có thể copy/paste ở trong module).<br>
     - This activity acts as an example: Nếu chọn yes, SV không được thay đổi nội dung mã nguồn hoặc upload file. GV cần tạo file code ví dụ ở mục "requested files" để SV chạy.<br>
 
+    <img src="figs/vpl_submission_restrictions.PNG">
+
 - Chấm điểm (grade)
-
-<img src="figs/vpl_submission_grade.PNG">
-
     - Grade to pass: điểm đạt yêu cầu.<br>
     - Free evaluations: Số lần được chạy chấm điểm không bị phạt.<br>
     - Reduction by automatic evaluation: Sau khi dùng quá số lần tự chấm điểm, từ mỗi lần nộp bài kế tiếp hệ thống sẽ trừ bớt điểm hiện tại theo giá trị hoặc theo %.<br>
     - Visible: nếu chọn yes, SV sẽ nhìn thấy các thông số này trên module.<br>
 
+<img src="figs/vpl_submission_grade.PNG">
 
-Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần đầu tiên được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
+
+Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần cuối cùng đánh giá được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
 
 #### Test cases
 File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ cho đánh giá tự động.
 <img src="figs/vpl_testcases.PNG">
 
 ### Tùy chọn thực thi (execution options)
-- Based on: Chọn kế thừa các tùy chọn và files từ 1 hoạt động VPL khác.
+- Based on: Chọn kế thừa các tùy chọn từ 1 hoạt động VPL khác.
 
 #### Tạo bài tập mẫu
 
