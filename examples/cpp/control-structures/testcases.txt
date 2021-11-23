@@ -1,0 +1,300 @@
+Case = Test 1
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 17
+Output = 1.89
+
+Case = Test 2
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 0
+Output = Error
+
+Case = Test 3
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 24
+Output = 1.92
+
+Case = Test 4
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -8
+Output = Error
+
+Case = Test 5
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -14
+Output = Error
+
+Case = Test 6
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 45
+Output = 1.96
+
+Case = Test 7
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 27
+Output = 1.93
+
+Case = Test 8
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 41
+Output = 1.95
+
+Case = Test 9
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 42
+Output = 1.95
+
+Case = Test 10
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 36
+Output = 1.95
+
+Case = Test 11
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 4
+Output = 1.60
+
+Case = Test 12
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -3
+Output = Error
+
+Case = Test 13
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -32
+Output = Error
+
+Case = Test 14
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 16
+Output = 1.88
+
+Case = Test 15
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -45
+Output = Error
+
+Case = Test 16
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 26
+Output = 1.93
+
+Case = Test 17
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 38
+Output = 1.95
+
+Case = Test 18
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 12
+Output = 1.85
+
+Case = Test 19
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 49
+Output = 1.96
+
+Case = Test 20
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 44
+Output = 1.96
+
+Case = Test 21
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 11
+Output = 1.83
+
+Case = Test 22
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -33
+Output = Error
+
+Case = Test 23
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 14
+Output = 1.87
+
+Case = Test 24
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 11
+Output = 1.83
+
+Case = Test 25
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 18
+Output = 1.89
+
+Case = Test 26
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 44
+Output = 1.96
+
+Case = Test 27
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -7
+Output = Error
+
+Case = Test 28
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 9
+Output = 1.80
+
+Case = Test 29
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 41
+Output = 1.95
+
+Case = Test 30
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 28
+Output = 1.93
+
+Case = Test 31
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -35
+Output = Error
+
+Case = Test 32
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -42
+Output = Error
+
+Case = Test 33
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -6
+Output = Error
+
+Case = Test 34
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -42
+Output = Error
+
+Case = Test 35
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -48
+Output = Error
+
+Case = Test 36
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -5
+Output = Error
+
+Case = Test 37
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -29
+Output = Error
+
+Case = Test 38
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 0
+Output = Error
+
+Case = Test 39
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -1
+Output = Error
+
+Case = Test 40
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 48
+Output = 1.96
+
+Case = Test 41
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 23
+Output = 1.92
+
+Case = Test 42
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -4
+Output = Error
+
+Case = Test 43
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -40
+Output = Error
+
+Case = Test 44
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -26
+Output = Error
+
+Case = Test 45
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 8
+Output = 1.78
+
+Case = Test 46
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -39
+Output = Error
+
+Case = Test 47
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -23
+Output = Error
+
+Case = Test 48
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 38
+Output = 1.95
+
+Case = Test 49
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = -32
+Output = Error
+
+Case = Test 50
+Grade reduction = 100%
+Fail message = Incorrect output
+Input = 41
+Output = 1.95
+
