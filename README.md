@@ -54,14 +54,17 @@ Về nội dung, có thể tạo:
 #### Tổng quát (general)
 - Mô tả (description)
 <img src="figs/vpl_description.PNG">
+
 - Giới hạn nộp bài (submission restrictions)
 <img src="figs/vpl_submission_restrictions.PNG">
-    - Maximum number of files: hạn chế số lượng file tối đa SV được nộp.
-    - Type of work: chọn dạng bài làm cá nhân (individual) hoặc nhóm (group).
-    - Disable external file upload, paste and drop external content: hạn chế upload hoặc copy/paste từ bên ngoài (vẫn có thể copy/paste ở trong module).
-    - This activity acts as an example: Nếu chọn yes, SV không được thay đổi nội dung mã nguồn hoặc upload file. GV cần tạo file code ví dụ ở mục "requested files" để SV chạy.
+
+    - Maximum number of files: hạn chế số lượng file tối đa SV được nộp.<br>
+    - Type of work: chọn dạng bài làm cá nhân (individual) hoặc nhóm (group).<br>
+    - Disable external file upload, paste and drop external content: hạn chế upload hoặc copy/paste từ bên ngoài (vẫn có thể copy/paste ở trong module).<br>
+    - This activity acts as an example: Nếu chọn yes, SV không được thay đổi nội dung mã nguồn hoặc upload file. GV cần tạo file code ví dụ ở mục "requested files" để SV chạy.<br>
 
 - Chấm điểm (grade)
+
 <img src="figs/vpl_submission_grade.PNG">
 
     - Grade to pass: điểm đạt yêu cầu.<br>
