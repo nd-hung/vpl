@@ -64,13 +64,10 @@ Về nội dung, có thể tạo:
 - Chấm điểm (grade)
 <img src="figs/vpl_submission_grade.PNG">
 
-    - Grade to pass: điểm đạt yêu cầu.
-
-    - Free evaluations: Số lần được chạy chấm điểm không bị phạt.
-
-    - Reduction by automatic evaluation: Sau khi dùng quá số lần tự chấm điểm, từ mỗi lần nộp bài kế tiếp hệ thống sẽ trừ bớt điểm hiện tại theo giá trị hoặc theo %.
-
-    - Visible: nếu chọn yes, SV sẽ nhìn thấy các thông số này trên module.
+    - Grade to pass: điểm đạt yêu cầu.<br>
+    - Free evaluations: Số lần được chạy chấm điểm không bị phạt.<br>
+    - Reduction by automatic evaluation: Sau khi dùng quá số lần tự chấm điểm, từ mỗi lần nộp bài kế tiếp hệ thống sẽ trừ bớt điểm hiện tại theo giá trị hoặc theo %.<br>
+    - Visible: nếu chọn yes, SV sẽ nhìn thấy các thông số này trên module.<br>
 
 
 Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần đầu tiên được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
