@@ -51,6 +51,7 @@ Về nội dung, có thể tạo:
     - GV có thể tạo sẵn một số dòng code tạo khung chương trình, khuôn mẫu input/ouput (rất hữu ích khi chấm tự động).
 
 ### Thiết lập hoạt động VPL
+#### Tổng quát (general)
 - Mô tả (description)
 <img src="figs/vpl_description.PNG">
 - Giới hạn nộp bài (submission restrictions)
@@ -69,7 +70,12 @@ Về nội dung, có thể tạo:
     
     Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần đầu tiên được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
 
+#### Test cases
+File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ cho đánh giá tự động.
+<img src="figs/vpl_testcases.PNG">
 
+### Tùy chọn thực thi (execution options)
+- Based on: Chọn kế thừa các tùy chọn và files từ 1 hoạt động VPL khác.
 
 #### Tạo bài tập mẫu
 
