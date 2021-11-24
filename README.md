@@ -205,7 +205,7 @@ Grade reduction = [ value | percent% ]
 <img src="figs/vpl_batch_evaluation.PNG">
 
 - Not executed: Đánh giá các bài đã nộp nhưng chưa đánh giá.
-- Not grade: Đánh giá các bài đã nộp nhưng chưa gán điểm.
+- Not graded: Đánh giá các bài đã nộp nhưng chưa gán điểm.
 - All: Đánh giá tất cả.
 
 ### 5.4 - Kiểm tra bài làm giống nhau 
