@@ -1,4 +1,4 @@
-# Tự động hóa đánh giá bài tập lập trình trên Moodle với VPL module (Virtual Programming Lab) 
+# Tự động hóa đánh giá bài tập lập trình trên Moodle với VPL module
 
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io)
 #### Khoa CNTT Trường đại học Nha Trang
@@ -12,13 +12,12 @@
 ### [5 - Đánh giá, cho điểm](#grading)
 ### [6 - Một số ví dụ](#examples)
 
-
 <br>
 
 ## <a name="intro">1 - Sơ lược về VPL </a>
 
 ### 1.1 - VPL: Virtual Programming Lab
-- [Virtual Programming Lab (VPL)](https://vpl.dis.ulpgc.es/) là một Moodle plugin, cung cấp các chức năng quản lý & đánh giá bài tập lập trình trên Moodle.
+- [VPL](https://vpl.dis.ulpgc.es/) là một Moodle plugin, cung cấp các chức năng quản lý & đánh giá bài tập lập trình trên Moodle.
 - VPL do GS [Juan Carlos Rodríguez-del-Pino, ULPGC](https://www.dis.ulpgc.es/profesorado/ficha.asp?id=51) và cộng sự phát triển.
 - Miễn phí (GNU General
    Public License version 3). [Code available at Github](https://github.com/jcrodriguez-dis/moodle-mod_vpl)
@@ -51,7 +50,7 @@ VPL gồm 3 thành phần chính:
 
 ## <a name="use">3 - Sử dụng VPL</a>
 ### 3.1 - Các dạng bài tập
-Về nội dung, có thể tạo:
+Về nội dung, có thể tạo các hoạt động sau:
 - **Bài tập mẫu (examples)**
     - Bài toán và code mẫu được cung cấp cho SV.
     - SV có thể chạy, debug code mẫu.
