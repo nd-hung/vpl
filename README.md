@@ -197,11 +197,12 @@ Grade reduction = [ value | percent% ]
 ## <a name="grading">5 - Đánh giá, cho điểm</a>
 ### 5.1 - Xem danh sách bài nộp
 <img src="figs/vpl_submission_list.PNG">
+
 ### 5.2 - Chấm điểm SV
 <img src="figs/vpl_manual_grading.PNG">
-### 5.3 - Đánh giá hàng loạt (batch evaluation)
 
-The “Evaluate” option allows to launch a batch evaluation of the selected students and submissions that match the criteria:
+### 5.3 - Đánh giá hàng loạt (batch evaluation)
+<img src="figs/vpl_batch_evaluation.PNG">
 
 - Not executed: Đánh giá các bài đã nộp nhưng chưa đánh giá.
 - Not grade: Đánh giá các bài đã nộp nhưng chưa gán điểm.
