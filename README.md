@@ -50,38 +50,112 @@ Về nội dung, có thể tạo:
     - GV cho bài toán, SV tự viết chương trình hoàn chỉnh.
     - GV có thể tạo sẵn một số dòng code tạo khung chương trình, khuôn mẫu input/ouput (rất hữu ích khi chấm tự động).
 
-### Thiết lập hoạt động VPL
-#### Tổng quát (general)
-- Mô tả (description)
+## Thiết lập hoạt động VPL
+### Thiết lập chung (settings)
+#### Tổng quát
 <img src="figs/vpl_description.PNG">
+- Nhập tên hoạt động và mô tả.
 
-- Giới hạn nộp bài (submission restrictions)
-    - Maximum number of files: hạn chế số lượng file tối đa SV được nộp.<br>
-    - Type of work: chọn dạng bài làm cá nhân (individual) hoặc nhóm (group).<br>
-    - Disable external file upload, paste and drop external content: hạn chế upload hoặc copy/paste từ bên ngoài (vẫn có thể copy/paste ở trong module).<br>
-    - This activity acts as an example: Nếu chọn yes, SV không được thay đổi nội dung mã nguồn hoặc upload file. GV cần tạo file code ví dụ ở mục "requested files" để SV chạy.<br>
+#### Giới hạn nộp bài (submission restrictions)
+<img src="figs/vpl_submission_restrictions.PNG">
+- Maximum number of files: hạn chế số lượng file tối đa SV được nộp.<br>
+- Type of work: chọn dạng bài làm cá nhân (individual) hoặc nhóm (group).<br>
+- Disable external file upload, paste and drop external content: hạn chế upload hoặc copy/paste từ bên ngoài (vẫn có thể copy/paste ở trong module).<br>
+- This activity acts as an example: Nếu chọn yes, SV không được thay đổi nội dung mã nguồn hoặc upload file. GV cần tạo file code ví dụ ở mục "requested files" để SV chạy.<br>
 
-    <img src="figs/vpl_submission_restrictions.PNG">
-
-- Chấm điểm (grade)
-    - Grade to pass: điểm đạt yêu cầu.<br>
-    - Free evaluations: Số lần được chạy chấm điểm không bị phạt.<br>
-    - Reduction by automatic evaluation: Sau khi dùng quá số lần tự chấm điểm, từ mỗi lần nộp bài kế tiếp hệ thống sẽ trừ bớt điểm hiện tại theo giá trị hoặc theo %.<br>
-    - Visible: nếu chọn yes, SV sẽ nhìn thấy các thông số này trên module.<br>
-
+#### Chấm điểm (grade)
 <img src="figs/vpl_submission_grade.PNG">
+- Grade to pass: điểm đạt yêu cầu.<br>
+- Free evaluations: Số lần được chạy chấm điểm không bị phạt.<br>
+- Reduction by automatic evaluation: Sau khi dùng quá số lần tự chấm điểm, từ mỗi lần nộp bài kế tiếp hệ thống sẽ trừ bớt điểm hiện tại theo giá trị hoặc theo %.<br>
+- Visible: nếu chọn yes, SV sẽ nhìn thấy các thông số này trên module.<br>
 
+Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần hiện tại đánh giá được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
 
-Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần cuối cùng đánh giá được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
-
-#### Test cases
-File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ cho đánh giá tự động.
+### Test cases
 <img src="figs/vpl_testcases.PNG">
 
-### Tùy chọn thực thi (execution options)
-- Based on: Chọn kế thừa các tùy chọn từ 1 hoạt động VPL khác.
+File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ cho đánh giá tự động.
 
-#### Tạo bài tập mẫu
+### Tùy chọn thực thi (execution options)
+<img src="figs/vpl_execution_options.PNG">
+
+- Based on: Chọn kế thừa các tùy chọn từ 1 hoạt động VPL khác.
+- Run script: Chọn compiler.
+- Debug script: Chọn debuger.
+- Run: Cho phép/cấm SV chạy code trên IDE.
+- Debug: Cho phép/cấm SV debug trên IDE.
+- Evaluate: Cho phép/cấm SV chạy đánh giá tự động.
+> Chú ý: Người có quyền chấm điểm (lectuter) luôn được phép chạy, debug hoặc đánh giá.
+- Evaluate on submission: Nếu chọn, bài nộp upload của SV sẽ được chấm điểm tự động. Khi lưu bài từ IDE, không chấm tự động.
+- Automatic grading: Nếu chọn, hệ thống tự động gán điểm vào sổ điểm.
+
+### Requested files
+<img src="figs/vpl_requested_files.PNG">
+
+- Chức năng này dùng để yêu cầu SV nộp một hoặc một số file có tên xác định.
+- GV có thể (và nên) khởi tạo cho các file này để SV hoàn thiện nội dung.
+
+### Các thiết lập nâng cao (avanced settings)
+### Các file thực thi (execution files)
+<img src="figs/vpl_execution_files.PNG">
+
+- Chứa các file thi hành.
+- Các file mặc định: `vpl_run.sh, vpl_debug.sh, vpl_evaluate.sh, và vpl_evaluate.cases`
+- GV có thể thêm vào các file khi cần.
+
+### Maximum execution resource limits
+<img src="figs/vpl_resource_limits.PNG">
+
+### Files to keep when running
+
+<img src="figs/vpl_files_to_keep.PNG">
+
+- Khi cần sử dụng file nào đó (do GV tạo ra) khi chạy code của SV, đánh dấu các file này để chọn.
+
+## Đánh giá tự động 
+### Các thông số cơ bản
+### case
+- Lệnh này đánh dấu một test case.
+- Cú pháp (viết trên 1 dòng): 
+```console
+Case = Test case description
+```
+
+### Input
+- Định nghĩa chuỗi đầu vào của chương trình.
+- Mỗi test case phải có 1 lệnh input.
+
+Cú pháp:
+```console
+Input = Text
+```
+
+### Output
+- Định nghĩa các giá trị đầu mong muốn ứng với giá trị đầu vào.
+- Có thể có nhiều hơn một lệnh Ouput, tối thiểu 1. Nếu có ít nhất một output khớp với input thì test case đúng.
+- Các kiểu dữ liệu của output: numbers, text, exact text và regular expression.
+
+Cú pháp:
+```console
+Output = value
+```
+
+#### Tạo test case kiểu số
+- Chỉ sử dụng giá trị số trong lệnh output.
+- Giá trị số có thể là số nguyên hoặc số thực.
+- Hệ thống sẽ giữ lại các giá trị số trong output của code để so sánh.
+
+### Tạo test case kiểu text
+- Không phân biệt chữ hoa, chữ thường.
+- Bỏ qua dấu chấm, khoảng trắng, tab và ký tự xuống dòng khi so sánh.
+- Chuỗi output cần chứa các ký tự chữ cái, không được đặt trong cặp dấu "", không được bắt đầu bằng ký tự slash (/).
+
+<img src="figs/vpl_output_text_cases.PNG">
+
+<img src="figs/vpl_output_text.PNG">
+
+## Một số ví dụ 
 
 
 
