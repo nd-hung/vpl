@@ -5,10 +5,10 @@
 
 <br>
 
-## [1 - Sơ lược về VPL](#intro)
-## [2 - Cài đặt VPL](#install)
-## [3 - Sử dụng VPL](#use)
-## [4 - Một số ví dụ](#examples)
+### [1 - Sơ lược về VPL](#intro)
+### [2 - Cài đặt VPL](#install)
+### [3 - Sử dụng VPL](#use)
+### [4 - Một số ví dụ](#examples)
 
 
 <br>
