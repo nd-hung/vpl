@@ -3,21 +3,32 @@
 ### [Nguyễn Đình Hưng](https://nd-hung.github.io)
 #### Khoa CNTT Trường đại học Nha Trang
 
-## Giới thiệu
-### Virtual Programming Lab
+<br>
+
+## [1 - Sơ lược về VPL](#intro)
+## [2 - Cài đặt VPL](#install)
+## [3 - Sử dụng VPL](#use)
+## [4 - Một số ví dụ](#examples)
+
+
+<br>
+
+## <a name="intro">1 - Sơ lược về VPL </a>
+
+### 1.1 - VPL: Virtual Programming Lab
 - [Virtual Programming Lab (VPL)](https://vpl.dis.ulpgc.es/) là một Moodle plugin, cung cấp các chức năng quản lý & đánh giá bài tập lập trình trên Moodle.
 - VPL do GS [Juan Carlos Rodríguez-del-Pino, ULPGC](https://www.dis.ulpgc.es/profesorado/ficha.asp?id=51) và cộng sự phát triển.
 - Miễn phí (GNU General
    Public License version 3). [Code available at Github](https://github.com/jcrodriguez-dis/moodle-mod_vpl)
 
-### Các tính năng chính của VPL
+### 1.2 - Các tính năng chính của VPL
 Ngoài các đặc điểm chung của một Moodle activity, VPL có thêm các tính năng sau:
 - Cho phép biên tập mã nguồn, chạy và debug chương trình trực tuyến trên Moodle (không hỗ trợ IntelliSense).
 - Đánh giá, chấm điểm chương trình tự động (hoặc bằng tay).
 - Có thể hạn chế sinh viên copy/paste mã nguồn, tìm kiếm các bài làm giống nhau.
 - Hỗ trợ phần lớn ngôn ngữ lập trình thông dụng: C/C++, C#, Java, Python, PHP,... 
 
-### Kiến trúc VPL
+### 1.3 - Kiến trúc VPL
 <img src="figs/vpl_components.PNG">
 
 VPL gồm 3 thành phần chính: 
@@ -31,13 +42,13 @@ VPL gồm 3 thành phần chính:
 - **Máy chủ VPL (VPL jail server)**
     - Dịch, thi hành và đánh giá mã nguồn.
 
-## Cài đặt VPL 
-### Moodle VPL plugin (Moodle admin)
-### <a href="docs/install_vpl_jail_server.md">VPL Jail Server</a>
+## <a name="install">2 - Cài đặt VPL</a>
+### 2.1 - Moodle VPL plugin (Moodle admin)
+### 2.2 - <a href="docs/install_vpl_jail_server.md">VPL Jail Server</a>
 
 
-## Sử dụng VPL
-### Các dạng bài tập
+## <a name="use">3 - Sử dụng VPL</a>
+### 3.1 - Các dạng bài tập
 Về nội dung, có thể tạo:
 - **Bài tập mẫu (examples)**
     - Bài toán và code mẫu được cung cấp cho SV.
@@ -50,20 +61,20 @@ Về nội dung, có thể tạo:
     - GV cho bài toán, SV tự viết chương trình hoàn chỉnh.
     - GV có thể tạo sẵn một số dòng code tạo khung chương trình, khuôn mẫu input/ouput (rất hữu ích khi chấm tự động).
 
-## Thiết lập hoạt động VPL
-### Thiết lập chung (settings)
-#### Tổng quát
+### 3.2 - Thiết lập hoạt động VPL
+#### 3.2.1 - Thiết lập chung (settings)
+**Tổng quát**
 <img src="figs/vpl_description.PNG">
 - Nhập tên hoạt động và mô tả.
 
-#### Giới hạn nộp bài (submission restrictions)
+**Giới hạn nộp bài (submission restrictions)**
 <img src="figs/vpl_submission_restrictions.PNG">
 - Maximum number of files: hạn chế số lượng file tối đa SV được nộp.<br>
 - Type of work: chọn dạng bài làm cá nhân (individual) hoặc nhóm (group).<br>
 - Disable external file upload, paste and drop external content: hạn chế upload hoặc copy/paste từ bên ngoài (vẫn có thể copy/paste ở trong module).<br>
 - This activity acts as an example: Nếu chọn yes, SV không được thay đổi nội dung mã nguồn hoặc upload file. GV cần tạo file code ví dụ ở mục "requested files" để SV chạy.<br>
 
-#### Chấm điểm (grade)
+**Chấm điểm (grade)**
 <img src="figs/vpl_submission_grade.PNG">
 - Grade to pass: điểm đạt yêu cầu.<br>
 - Free evaluations: Số lần được chạy chấm điểm không bị phạt.<br>
