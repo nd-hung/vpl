@@ -132,7 +132,7 @@ Input = Text
 ```
 
 ### Output
-- Định nghĩa các giá trị đầu mong muốn ứng với giá trị đầu vào.
+- Định nghĩa các giá trị đầu ra mong muốn ứng với giá trị đầu vào.
 - Có thể có nhiều hơn một lệnh Ouput, tối thiểu 1. Nếu có ít nhất một output khớp với input thì test case đúng.
 - Các kiểu dữ liệu của output: numbers, text, exact text và regular expression.
 
