@@ -83,12 +83,12 @@ Về nội dung, có thể tạo:
 
 Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần hiện tại đánh giá được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
 
-### Test cases
+### 3.2.2 - Test cases
 <img src="figs/vpl_testcases.PNG">
 
 File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ cho đánh giá tự động.
 
-### Tùy chọn thực thi (execution options)
+### 3.2.3 - Tùy chọn thực thi (execution options)
 <img src="figs/vpl_execution_options.PNG">
 
 - Based on: Chọn kế thừa các tùy chọn từ 1 hoạt động VPL khác.
@@ -101,32 +101,32 @@ File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ c
 - Evaluate on submission: Nếu chọn, bài nộp upload của SV sẽ được chấm điểm tự động. Khi lưu bài từ IDE, không chấm tự động.
 - Automatic grading: Nếu chọn, hệ thống tự động gán điểm vào sổ điểm.
 
-### Requested files
+### 3.2.4 - Requested files
 <img src="figs/vpl_requested_files.PNG">
 
 - Chức năng này dùng để yêu cầu SV nộp một hoặc một số file có tên xác định.
 - GV có thể (và nên) khởi tạo cho các file này để SV hoàn thiện nội dung.
 
-### Các thiết lập nâng cao (avanced settings)
-### Các file thực thi (execution files)
+### 3.2.5 - Các thiết lập nâng cao (avanced settings)
+**Các file thực thi (execution files)**
 <img src="figs/vpl_execution_files.PNG">
 
 - Chứa các file thi hành.
 - Các file mặc định: `vpl_run.sh, vpl_debug.sh, vpl_evaluate.sh, và vpl_evaluate.cases`
 - GV có thể thêm vào các file khi cần.
 
-### Maximum execution resource limits
+**Maximum execution resource limits**
 <img src="figs/vpl_resource_limits.PNG">
 
-### Files to keep when running
+**Files to keep when running**
 
 <img src="figs/vpl_files_to_keep.PNG">
 
 - Khi cần sử dụng file nào đó (do GV tạo ra) khi chạy code của SV, đánh dấu các file này để chọn.
 
-## Đánh giá tự động 
-### Các thông số cơ bản
-### case
+### 3.2.6 - Thiết lập đánh giá tự động 
+#### Các thông số cơ bản
+- case
 - Lệnh này đánh dấu một test case.
 - Cú pháp (viết trên 1 dòng): 
 ```console
