@@ -8,7 +8,9 @@
 ### [1 - Sơ lược về VPL](#intro)
 ### [2 - Cài đặt VPL](#install)
 ### [3 - Sử dụng VPL](#use)
-### [4 - Một số ví dụ](#examples)
+### [4 - Thiết lập đánh giá tự động](#autoevaluation)
+### [5 - Đánh giá, cho điểm](#grading)
+### [6 - Một số ví dụ](#examples)
 
 
 <br>
@@ -108,6 +110,7 @@ File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ c
 - GV có thể (và nên) khởi tạo cho các file này để SV hoàn thiện nội dung.
 
 ### 3.2.5 - Các thiết lập nâng cao (avanced settings)
+
 **Các file thực thi (execution files)**
 <img src="figs/vpl_execution_files.PNG">
 
@@ -124,16 +127,16 @@ File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ c
 
 - Khi cần sử dụng file nào đó (do GV tạo ra) khi chạy code của SV, đánh dấu các file này để chọn.
 
-### 3.2.6 - Thiết lập đánh giá tự động 
-#### Các thông số cơ bản
-- case
+## <a name="autoevaluation">4 - Thiết lập đánh giá tự động </a>
+### 4.1 - Các thông số cơ bản
+**Case**
 - Lệnh này đánh dấu một test case.
 - Cú pháp (viết trên 1 dòng): 
 ```console
 Case = Test case description
 ```
 
-### Input
+**Input**
 - Định nghĩa chuỗi đầu vào của chương trình.
 - Mỗi test case phải có 1 lệnh input.
 
@@ -142,7 +145,7 @@ Cú pháp:
 Input = Text
 ```
 
-### Output
+**Output**
 - Định nghĩa các giá trị đầu ra mong muốn ứng với giá trị đầu vào.
 - Có thể có nhiều hơn một lệnh Ouput, tối thiểu 1. Nếu có ít nhất một output khớp với input thì test case đúng.
 - Các kiểu dữ liệu của output: numbers, text, exact text và regular expression.
@@ -151,13 +154,30 @@ Cú pháp:
 ```console
 Output = value
 ```
+### 4.2 - Các thông số tùy chọn
+**Fail message**
+- Thông báo đến SV kết quả chưa đúng.
 
-#### Kiểm tra output kiểu số
+Cú pháp:
+```console
+Fail message = Text
+```
+
+**Grade reduction**
+- Trừ điểm đối với output sai.
+
+Cú pháp:
+```console
+Grade reduction = [ value | percent% ]
+```
+
+### 4.3 - Kiểm tra output 
+**Kiểm tra output kiểu số**
 - Chỉ sử dụng giá trị số trong lệnh output.
 - Giá trị số có thể là số nguyên hoặc số thực.
 - Hệ thống sẽ giữ lại các giá trị số trong output của code để so sánh.
 
-### Kiểm tra output kiểu text
+**Kiểm tra output kiểu text**
 - Không phân biệt chữ hoa, chữ thường.
 - Bỏ qua dấu chấm, khoảng trắng, tab và ký tự xuống dòng khi so sánh.
 - Chuỗi output cần chứa các ký tự chữ cái, không được đặt trong cặp dấu "", không được bắt đầu bằng ký tự slash (/).
@@ -166,23 +186,39 @@ Output = value
 
 <img src="figs/vpl_output_text.PNG">
 
-### Kiểm tra chính xác output kiểu text
+**Kiểm tra chính xác output kiểu text**
 - Output mong muốn cần đặt trong "".
 
-### Kiểm tra output theo mẫu (regular expression)
+**Kiểm tra output theo mẫu (regular expression)**
 
-### Kiểm tra các trường hợp đa nghiệm
+**Kiểm tra các trường hợp đa nghiệm**
 <img src="figs/vpl_multiple_output.PNG">
 
+## <a name="grading">5 - Đánh giá, cho điểm</a>
+### 5.1 - Xem danh sách bài nộp
+<img src="figs/vpl_submission_list.PNG">
+### 5.2 - Chấm điểm SV
+<img src="figs/vpl_manual_grading.PNG">
+### 5.3 - Đánh giá hàng loạt (batch evaluation)
 
-## Một số ví dụ 
-### Ví dụ 1: Cấu trúc rẽ nhánh
+The “Evaluate” option allows to launch a batch evaluation of the selected students and submissions that match the criteria:
+
+- Not executed: Đánh giá các bài đã nộp nhưng chưa đánh giá.
+- Not grade: Đánh giá các bài đã nộp nhưng chưa gán điểm.
+- All: Đánh giá tất cả.
+
+### 5.4 - Kiểm tra bài làm giống nhau 
+<img src="figs/vpl_similarity_check.PNG">
+
+
+## <a name="examples">6 - Một số ví dụ </a>
+### 6.1 - Ví dụ 1: Cấu trúc rẽ nhánh
 <img src="figs/vpl_example1.PNG">
 
-### Ví dụ 2: Cấu trúc lặp
+### 6.2 - Ví dụ 2: Cấu trúc lặp
 <img src="figs/vpl_example2.PNG">
 
-### Ví dụ 3: Hàm
+### 6.3 - Ví dụ 3: Hàm
 <img src="figs/vpl_example3.PNG">
 
 
