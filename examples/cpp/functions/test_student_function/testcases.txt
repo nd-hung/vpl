@@ -1,0 +1,15 @@
+case = Test 1
+input = 1 2
+output = 3
+case = Test 2
+input = 2 5
+output = 7
+case = Test 3
+input = 1 -2
+output = -1
+case = Test 4
+input = 21 32
+output = 53
+case = Test 5
+input = 10 20
+output = 30
