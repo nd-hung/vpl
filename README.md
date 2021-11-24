@@ -78,8 +78,8 @@ Về nội dung, có thể tạo các hoạt động sau:
 **Chấm điểm (grade)**
 <img src="figs/vpl_submission_grade.PNG">
 - Grade to pass: điểm đạt yêu cầu.<br>
-- Free evaluations: Số lần được chạy chấm điểm không bị phạt.<br>
-- Reduction by automatic evaluation: Sau khi dùng quá số lần tự chấm điểm, từ mỗi lần nộp bài kế tiếp hệ thống sẽ trừ bớt điểm hiện tại theo giá trị hoặc theo %.<br>
+- Free evaluations: Số lần được chạy đánh giá không bị phạt.<br>
+- Reduction by automatic evaluation: Sau khi dùng quá số lần tự đánh giá, từ mỗi lần nộp bài kế tiếp hệ thống sẽ trừ bớt điểm hiện tại theo giá trị hoặc theo %.<br>
 - Visible: nếu chọn yes, SV sẽ nhìn thấy các thông số này trên module.<br>
 
 Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 5; sau đó, mỗi lần nộp/đánh giá kế tiếp bị trừ 0.5 điểm. Một SV nộp/đánh giá 8 lần, lần hiện tại đánh giá được 9 điểm. Vậy điểm còn lại của SV là `9 - (8-5) * 0.5 = 7.5`. 
@@ -87,12 +87,12 @@ Ví dụ: Điểm tối đa là 10, số lần được nộp không phạt là 
 ### 3.2.2 - Test cases
 <img src="figs/vpl_testcases.PNG">
 
-File `vpl_evaluate.cases` chứa các trường hợp kiểm thử phục vụ cho đánh giá tự động.
+File `vpl_evaluate.cases` chứa các test cases phục vụ cho đánh giá tự động.
 
 ### 3.2.3 - Tùy chọn thực thi (execution options)
 <img src="figs/vpl_execution_options.PNG">
 
-- Based on: Chọn kế thừa các tùy chọn từ 1 hoạt động VPL khác.
+- Based on: Chọn kế thừa các tùy chọn từ một hoạt động VPL khác.
 - Run script: Chọn compiler.
 - Debug script: Chọn debuger.
 - Run: Cho phép/cấm SV chạy code trên IDE.
@@ -227,4 +227,3 @@ Grade reduction = [ value | percent% ]
 assessment and anti-plagiarism features](https://www.researchgate.net/publication/275652921_A_Virtual_Programming_Lab_for_Moodle_with_automatic_assessment_and_anti-plagiarism_features)<br>
 [Virtual Programming Lab (VPL)](https://vpl.dis.ulpgc.es/)<br>
 [Virtual Progamming Lab at Github](https://github.com/jcrodriguez-dis/moodle-mod_vpl)
-
