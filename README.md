@@ -141,12 +141,12 @@ Cú pháp:
 Output = value
 ```
 
-#### Tạo test case kiểu số
+#### Kiểm tra output kiểu số
 - Chỉ sử dụng giá trị số trong lệnh output.
 - Giá trị số có thể là số nguyên hoặc số thực.
 - Hệ thống sẽ giữ lại các giá trị số trong output của code để so sánh.
 
-### Tạo test case kiểu text
+### Kiểm tra output kiểu text
 - Không phân biệt chữ hoa, chữ thường.
 - Bỏ qua dấu chấm, khoảng trắng, tab và ký tự xuống dòng khi so sánh.
 - Chuỗi output cần chứa các ký tự chữ cái, không được đặt trong cặp dấu "", không được bắt đầu bằng ký tự slash (/).
@@ -155,9 +155,24 @@ Output = value
 
 <img src="figs/vpl_output_text.PNG">
 
+### Kiểm tra chính xác output kiểu text
+- Output mong muốn cần đặt trong "".
+
+### Kiểm tra output theo mẫu (regular expression)
+
+### Kiểm tra các trường hợp đa nghiệm
+<img src="figs/vpl_multiple_output.PNG">
+
+
 ## Một số ví dụ 
+### Ví dụ 1: Cấu trúc rẽ nhánh
+<img src="figs/vpl_example1.PNG">
 
+### Ví dụ 2: Cấu trúc lặp
+<img src="figs/vpl_example2.PNG">
 
+### Ví dụ 3: Hàm
+<img src="figs/vpl_example3.PNG">
 
 
 ## Tài liệu tham khảo
