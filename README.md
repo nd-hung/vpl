@@ -26,7 +26,7 @@
 Ngoài các đặc điểm chung của một Moodle activity, VPL có thêm các tính năng sau:
 - Cho phép biên tập mã nguồn, chạy và debug chương trình trực tuyến trên Moodle (không hỗ trợ IntelliSense).
 - Đánh giá, chấm điểm chương trình tự động (hoặc bằng tay).
-- Có thể hạn chế sinh viên copy/paste mã nguồn, tìm kiếm các bài làm giống nhau.
+- Cho pheps hạn chế sinh viên copy/paste mã nguồn, tìm kiếm các bài làm giống nhau.
 - Hỗ trợ phần lớn ngôn ngữ lập trình thông dụng: C/C++, C#, Java, Python, PHP,... 
 
 ### 1.3 - Kiến trúc VPL
@@ -108,7 +108,7 @@ File `vpl_evaluate.cases` chứa các test cases phục vụ cho đánh giá t�
 - Chức năng này dùng để yêu cầu SV nộp một hoặc một số file có tên xác định.
 - GV có thể (và nên) khởi tạo cho các file này để SV hoàn thiện nội dung.
 
-### 3.2.5 - Các thiết lập nâng cao (avanced settings)
+### 3.2.5 - Các thiết lập nâng cao (advanced settings)
 
 **Các file thực thi (execution files)**
 <img src="figs/vpl_execution_files.PNG">
