@@ -12,7 +12,7 @@ sudo ./install-vpl-sh
 
 - Replace the old config with new one? Yes
 - SSL keys: Use Letsecrypt to generate certificate and private key file (pem format)
-Domain: `your-domain`
+Domain: `your-domain`. E.g., `vpl.ntu.edu.vn`
 
 Generated keys will be stored at:
 ```console
